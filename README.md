@@ -1,11 +1,11 @@
-# MFA-Implementation-For-Active-Directory
+# 2FA-Implementation-For-Active-Directory
 
-#Objective
+# Objective
 
 
 This project demonstrates the implementation of Two-Factor Authentication (2FA) using Duo Security for Active Directory users to enhance endpoint security. It also includes the configuration of a Network Time Protocol (NTP) server to resolve time drift issues (which I did not document but read more here https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/configure-authoritative-time-server), ensuring reliable authentication. This project showcases skills in system administration, identity and access management, and security best practices for enterprise environments.
 
-#Skills Learned
+# Skills Learned
 
 Two-Factor Authentication (2FA) Implementation – Configuring and enforcing 2FA using Duo Security.
 
@@ -24,22 +24,22 @@ Windows Server Administration – Managing security configurations on a Windows 
 
 Network Time Protocol (NTP) Configuration – Setting up an NTP server to synchronize system time and prevent authentication failures.
 
-#Tools Used
+# Tools Used
 
 Windows Server - Used to configure the domain controller and manage Active Directory (AD) settings.
 
 Duo Security – Configured two-factor authentication (2FA) for Active Directory users..
 
 
-Steps
+# Steps
 
-1.signing up for free trial of duo on windows server 
+# 1. Signing up for free trial of duo on windows server 
 
 ![image](https://github.com/user-attachments/assets/ea222cce-b3e8-4d77-acb2-d1d22cab42ad)
 
 
 
-2. Adding Group To Duo For AD Lab Users
+# 2. Adding Group To Duo For AD Lab Users
 
 ![image](https://github.com/user-attachments/assets/8222a039-dac7-46fe-9d42-596785eda1de)
 ![image](https://github.com/user-attachments/assets/50703eed-73ca-40ea-a4a5-50f51691fb2c)
@@ -47,7 +47,7 @@ Steps
 
 
 
-3. Next Step we are going to Add the user Jenny Smith (Make sure the user login matches the name you add in duo)
+# 3. Next Step we are going to Add the user Jenny Smith (Make sure the user login matches the name you add in duo)
 
 
 
@@ -59,7 +59,7 @@ Steps
 
 
 
-4. Adding user to AD Lab Group  in DUO
+# 4. Adding user to AD Lab Group  in DUO
 
 
 
@@ -68,7 +68,7 @@ Steps
 
 
 
-5. Receiving Enrollment Email For “jsmith”
+# 5. Receiving Enrollment Email For “jsmith”
 
 
 
@@ -79,7 +79,7 @@ Steps
 
 
 
-7. Sending An Duo Push For Testing Purposes For “jsmith”
+# 6. Sending An Duo Push For Testing Purposes For “jsmith”
 
 
 
@@ -89,7 +89,7 @@ Steps
 
 
 
-8. Protecting Application In DUO (Select Microsoft RDP)
+# 7. Protecting Application In DUO (Select Microsoft RDP)
 
 
 
@@ -99,7 +99,7 @@ Steps
 
 
 
-9.Configuring Duo Security Module On Windows Server
+# 8.Configuring Duo Security Module On Windows Server
 
 
 
@@ -111,7 +111,7 @@ Steps
 
 
 
-10.Testing Duo Push On User "jsmith" Device
+# 9.Testing Duo Push On User "jsmith" Device
 
 
 
